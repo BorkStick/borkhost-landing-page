@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url('./img/server-closet.jpg');
+  display: table;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: cover;
+}
+#home {
+  /*background-image: url('/img/server-closet.jpg');*/
+  display: table;
+  height: 50%;
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: cover;
+}
+.landing-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.landing-text h1 {
+  font-size: 500%;
+  font-weight: 700;
+  color: white;
+  background: rgba(0, 0, 0, 0.911);
+  padding: 20px;
+}
+
+.landing-text h3 {
+  font-size: 300%;
+  color: #50fa7b;
+  background: rgba(0, 0, 0, 0.911);
+  padding: 20px;
+}
+
+.btn-danger {
+  color: #50fa7b;
+  margin-top: 5em;
+  padding: 1rem 4rem;
+}
